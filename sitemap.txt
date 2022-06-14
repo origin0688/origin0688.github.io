@@ -1,3 +1,5 @@
+http://example.com/2022/06/14/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/
+http://example.com/2022/06/14/6-14/
 http://example.com/galleries/index.html
 http://example.com/zhangyu/index.html
 http://example.com/tangjiafeng/index.html
@@ -9,4 +11,5 @@ http://example.com/about/index.html
 http://example.com/2022/06/12/%E8%80%83%E7%A0%946.12/
 http://example.com/
 http://example.com/tags/%E8%80%83%E7%A0%94/
+http://example.com/tags/%E6%9C%9F%E6%9C%AB/
 http://example.com/categories/%E8%80%83%E7%A0%94/

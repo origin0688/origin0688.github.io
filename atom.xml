@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-06-12T12:49:28.784Z</updated>
+  <updated>2022-06-14T05:31:48.919Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,51 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>6.14</title>
+    <link href="http://example.com/2022/06/14/6-14/"/>
+    <id>http://example.com/2022/06/14/6-14/</id>
+    <published>2022-06-14T05:28:58.000Z</published>
+    <updated>2022-06-14T05:31:48.919Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="上午："><a href="#上午：" class="headerlink" title="上午："></a>上午：</h1><ul><li>软件工程第8章<h1 id="中午"><a href="#中午" class="headerlink" title="中午:"></a>中午:</h1></li><li>张宇基础阶段实践课，第5讲</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;上午：&quot;&gt;&lt;a href=&quot;#上午：&quot; class=&quot;headerlink&quot; title=&quot;上午：&quot;&gt;&lt;/a&gt;上午：&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;软件工程第8章&lt;h1 id=&quot;中午&quot;&gt;&lt;a href=&quot;#中午&quot; class=&quot;headerlink&quot; title=&quot;中</summary>
+      
+    
+    
+    
+    
+    <category term="考研" scheme="http://example.com/tags/%E8%80%83%E7%A0%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>软件工程</title>
+    <link href="http://example.com/2022/06/14/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/"/>
+    <id>http://example.com/2022/06/14/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/</id>
+    <published>2022-06-14T01:08:05.000Z</published>
+    <updated>2022-06-14T08:21:16.401Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="第八章"><a href="#第八章" class="headerlink" title="第八章"></a>第八章</h2><p>面向对象设计OOD方法,是面向对象方法中的一个中间过渡环节,主要作用是面向对象分析OOA的结果做进一步的规范化整理，以便能被面向对象编程OOP直接接受</p><ul><li>设计是软件开发的第一个阶段，分为总体设计 &amp; 详细设计</li><li>面向对象设计分为系统设计 &amp; 对象设计</li><li>分析是提取和整理用户需求，并建立问题域精确模型的过程。</li><li>设计：把分析阶段得到的需求 —-&gt; 符合成本和质量要求的、抽象的系统实现方案</li><li>OOA到OOD是一个逐渐扩充模型的过程,也即用面向对象观点建立求解域模型</li><li>优秀软件设计：易于维护</li><li>软件的作用域（受其影响） &lt;&#x3D; 控制域（本身+孩子）</li></ul><img src="/images/无标题.png"/>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;第八章&quot;&gt;&lt;a href=&quot;#第八章&quot; class=&quot;headerlink&quot; title=&quot;第八章&quot;&gt;&lt;/a&gt;第八章&lt;/h2&gt;&lt;p&gt;面向对象设计OOD方法,是面向对象方法中的一个中间过渡环节,主要作用是面向对象分析OOA的结果做进一步的规范化整理，以便能被面向对象</summary>
+      
+    
+    
+    
+    
+    <category term="期末" scheme="http://example.com/tags/%E6%9C%9F%E6%9C%AB/"/>
+    
+  </entry>
   
   <entry>
     <title>考研规划</title>

@@ -237,7 +237,7 @@
     </button>
 
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#MySQL%E7%9A%84jdbc%E8%BF%9E%E6%8E%A5%E9%97%AE%E9%A2%98"><span class="post-toc-number">1.</span> <span class="post-toc-text">MySQL的jdbc连接问题</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#%E9%97%AE%E9%A2%98%E6%8F%8F%E8%BF%B0%EF%BC%9A"><span class="post-toc-number"></span> <span class="post-toc-text">问题描述：</span></a>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#MySQL%E7%9A%84jdbc%E8%BF%9E%E6%8E%A5%E9%97%AE%E9%A2%98"><span class="post-toc-number">1.</span> <span class="post-toc-text">MySQL的jdbc连接问题</span></a></li></ol>
 
         <!--
         <li class="mdl-menu__item">
@@ -383,13 +383,7 @@
                 <!-- Post Content -->
                 <div id="post-content" class="markdown- mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <style>
-pre {
-  overflow-y: auto;
-  max-height: 300px;
-}
-</style>
-<h2 id="MySQL的jdbc连接问题"><a href="#MySQL的jdbc连接问题" class="headerlink" title="MySQL的jdbc连接问题"></a>MySQL的jdbc连接问题</h2><h1 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h1><p>瑞吉外卖，riggie项目。</p>
+        <h2 id="MySQL的jdbc连接问题"><a href="#MySQL的jdbc连接问题" class="headerlink" title="MySQL的jdbc连接问题"></a>MySQL的jdbc连接问题</h2><p>问题描述：<br>瑞吉外卖，riggie项目。</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">2022</span>-<span class="number">06</span>-<span class="number">22</span> <span class="number">01</span>:<span class="number">00</span>:<span class="number">00.884</span> ERROR <span class="number">24468</span> --- [eate-<span class="number">2069584894</span>] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: jdbc:mysql:<span class="comment">//localhost:3306/reggie?serverTimezone=Asia/Shanghai&amp;useUnicode=true&amp;characterEncoding=utf-8&amp;zeroDateTimeBehavior=convertToNull&amp;useSSL=false&amp;allowPublicKeyRetrieval=true, errorCode 1045, state 28000</span></span><br><span class="line"></span><br><span class="line">java.sql.SQLException: Access denied <span class="keyword">for</span> user <span class="string">&#x27;root&#x27;</span>@<span class="string">&#x27;localhost&#x27;</span> (using password: YES)</span><br><span class="line">	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:<span class="number">129</span>) ~[mysql-connector-java-<span class="number">8.0</span><span class="number">.29</span>.jar:<span class="number">8.0</span><span class="number">.29</span>]</span><br><span class="line">	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:<span class="number">122</span>) ~[mysql-connector-java-<span class="number">8.0</span><span class="number">.29</span>.jar:<span class="number">8.0</span><span class="number">.29</span>]</span><br><span class="line">	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:<span class="number">828</span>) ~[mysql-connector-java-<span class="number">8.0</span><span class="number">.29</span>.jar:<span class="number">8.0</span><span class="number">.29</span>]</span><br><span class="line">	at com.mysql.cj.jdbc.ConnectionImpl.&lt;init&gt;(ConnectionImpl.java:<span class="number">448</span>) ~[mysql-connector-java-<span class="number">8.0</span><span class="number">.29</span>.jar:<span class="number">8.0</span><span class="number">.29</span>]</span><br><span class="line">	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:<span class="number">241</span>) ~[mysql-connector-java-<span class="number">8.0</span><span class="number">.29</span>.jar:<span class="number">8.0</span><span class="number">.29</span>]</span><br><span class="line">	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:<span class="number">198</span>) ~[mysql-connector-java-<span class="number">8.0</span><span class="number">.29</span>.jar:<span class="number">8.0</span><span class="number">.29</span>]</span><br><span class="line">	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:<span class="number">1644</span>) ~[druid-<span class="number">1.1</span><span class="number">.23</span>.jar:<span class="number">1.1</span><span class="number">.23</span>]</span><br><span class="line">	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:<span class="number">1710</span>) ~[druid-<span class="number">1.1</span><span class="number">.23</span>.jar:<span class="number">1.1</span><span class="number">.23</span>]</span><br><span class="line">	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:<span class="number">2774</span>) ~[druid-<span class="number">1.1</span><span class="number">.23</span>.jar:<span class="number">1.1</span><span class="number">.23</span>]</span><br></pre></td></tr></table></figure>
 <p>——————————————————————————————————————————————————————————————————</p>
 <p>配置文件：application.yml</p>
@@ -544,7 +538,7 @@ pre {
         </a>
         <ul class="dropdown-menu">
             <li>
-            <a class="sidebar_archives-link" href="/archives/2022/06/">June 2022<span class="sidebar_archives-count">9</span></a>
+            <a class="sidebar_archives-link" href="/archives/2023/03/">March 2023<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2022/06/">June 2022<span class="sidebar_archives-count">9</span></a>
         </ul>
     </li>
 
@@ -562,7 +556,7 @@ pre {
     <li>
         <a href="/archives">
             Number of articles
-            <span class="sidebar-badge">9</span>
+            <span class="sidebar-badge">10</span>
         </a>
     </li>
 </ul>

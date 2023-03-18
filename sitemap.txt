@@ -1,3 +1,4 @@
+http://example.com/2023/03/19/anaconda%E3%80%81CUDA%E3%80%81CUDNN%E5%92%8Ctensorflow%E9%85%8D%E7%BD%AE/
 http://example.com/2022/06/19/%E6%B1%82%E5%8A%A91/
 http://example.com/2022/06/20/%E5%AD%A6%E5%B9%B4%E8%AE%BE%E8%AE%A13rd/
 http://example.com/2022/06/17/%E4%B8%AD%E8%8D%89%E8%8D%AF%E8%AF%86%E5%88%AB/
@@ -18,4 +19,5 @@ http://example.com/
 http://example.com/tags/%E8%80%83%E7%A0%94/
 http://example.com/tags/%E6%9C%9F%E6%9C%AB/
 http://example.com/tags/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/
+http://example.com/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/
 http://example.com/categories/%E8%80%83%E7%A0%94/

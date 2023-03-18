@@ -237,7 +237,7 @@
     </button>
 
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn">
-        
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#anaconda%E3%80%81CUDA%E3%80%81CUDNN%E3%80%81OpenCV%E5%92%8Ctensorflow%E9%85%8D%E7%BD%AE"><span class="post-toc-number">1.</span> <span class="post-toc-text">anaconda、CUDA、CUDNN、OpenCV和tensorflow配置</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#anaconda"><span class="post-toc-number">1.0.1.</span> <span class="post-toc-text">anaconda</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#anaconda%E5%88%A0%E9%99%A4-conda-V%E6%A3%80%E6%B5%8B"><span class="post-toc-number">1.0.2.</span> <span class="post-toc-text">anaconda删除.  conda -V检测</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E4%B8%8B%E8%BD%BD"><span class="post-toc-number">1.0.3.</span> <span class="post-toc-text">下载</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#CUDA"><span class="post-toc-number">1.0.4.</span> <span class="post-toc-text">CUDA</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#CUDNN"><span class="post-toc-number">1.0.5.</span> <span class="post-toc-text">CUDNN</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#OPENCV"><span class="post-toc-number">1.0.6.</span> <span class="post-toc-text">OPENCV</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#TensorFlow-gpu%E4%B8%8B%E8%BD%BD"><span class="post-toc-number">1.0.7.</span> <span class="post-toc-text">TensorFlow-gpu下载</span></a></li></ol></li></ol></li></ol>
 
         <!--
         <li class="mdl-menu__item">
@@ -383,33 +383,30 @@
                 <!-- Post Content -->
                 <div id="post-content" class="markdown- mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p>#anaconda、CUDA、CUDNN、OpenCV和tensorflow配置<br>最近做yolov4的目标检测object detection，看<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=mmj3nxGT2YQ">youtube的视频</a>和<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=AAPZLK41rek">车牌检测</a>，也尝试自己做一下。对了，博客格式是看的<a target="_blank" rel="noopener" href="https://xuxiaoshi.gitee.io/Hexo%E9%97%AE%E9%A2%98-Hexo%E5%86%99%E4%BD%9C%E8%AF%AD%E6%B3%95%E6%8C%87%E5%8D%97/">博客格式</a><br>参考</p>
+        <h1 id="anaconda、CUDA、CUDNN、OpenCV和tensorflow配置"><a href="#anaconda、CUDA、CUDNN、OpenCV和tensorflow配置" class="headerlink" title="anaconda、CUDA、CUDNN、OpenCV和tensorflow配置"></a>anaconda、CUDA、CUDNN、OpenCV和tensorflow配置</h1><p>最近做yolov4的目标检测object detection，看<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=mmj3nxGT2YQ">youtube的视频</a>和<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=AAPZLK41rek">车牌检测</a>，也尝试自己做一下。对了，博客格式是看的<a target="_blank" rel="noopener" href="https://xuxiaoshi.gitee.io/Hexo%E9%97%AE%E9%A2%98-Hexo%E5%86%99%E4%BD%9C%E8%AF%AD%E6%B3%95%E6%8C%87%E5%8D%97/">博客格式</a><br>参考</p>
 <ul>
 <li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Lv41177BW/?spm_id_from=333.880.my_history.page.click&vd_source=fd7c4d2a1c152992144b139cf643d043">【包教包会】Anaconda+Cuda+Cudnn+TensorFlow+Pytorch+Pycharm+Win10深</a></li>
 <li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1HZ4y1s7YF/?spm_id_from=333.880.my_history.page.click&vd_source=fd7c4d2a1c152992144b139cf643d043">windows搭建darknet并运行yolov4</a></li>
 <li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1ap4y1e7ng/?spm_id_from=333.880.my_history.page.click&vd_source=fd7c4d2a1c152992144b139cf643d043">Win 10 编译安装 darknet ，运行 YOLOv4</a></li>
-<li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1nU4y1d7LD/?spm_id_from=333.880.my_history.page.click&vd_source=fd7c4d2a1c152992144b139cf643d043">darknet+yolo4在windows环境下的图片和视频内容识别，之一：windows环境下</a><br>###anaconda<br>###anaconda删除.  conda -V检测<br>在控制面板里删除，保留图形驱动程序、Physx和Geforce<br><img src="/anacondaCUDACUDNN%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/%E6%97%A0%E6%A0%87%E9%A2%98.png"><br>###下载</li>
+<li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1nU4y1d7LD/?spm_id_from=333.880.my_history.page.click&vd_source=fd7c4d2a1c152992144b139cf643d043">darknet+yolo4在windows环境下的图片和视频内容识别，之一：windows环境下</a><h3 id="anaconda"><a href="#anaconda" class="headerlink" title="anaconda"></a>anaconda</h3><h3 id="anaconda删除-conda-V检测"><a href="#anaconda删除-conda-V检测" class="headerlink" title="anaconda删除.  conda -V检测"></a>anaconda删除.  conda -V检测</h3>在控制面板里删除，保留图形驱动程序、Physx和Geforce<br><img src="/./anacondaCUDACUDNN%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/%E6%97%A0%E6%A0%87%E9%A2%98.png"><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3></li>
 <li>在官网用installer下载，建议选2不选1项</li>
 <li>conda -V检测</li>
 </ul>
-<p>###CUDA</p>
-<ul>
+<h3 id="CUDA"><a href="#CUDA" class="headerlink" title="CUDA"></a>CUDA</h3><ul>
 <li>删除：在控制面板里删除.  nvcc -V检测</li>
 <li>首先确定CPU还是GPU，GPU能不能用</li>
-<li>比较自己的显卡版本，我的是511.23，于是下载CUDA11.6和CUDNN8.4.0<br><img src="/anacondaCUDACUDNN%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/~CY~F0_ZLP9_95H%5DMM9%5D(@X.png" alt="显卡"><br>在选项中，如果下载的版本低于当前版本，不选</li>
+<li>比较自己的显卡版本，我的是511.23，于是下载CUDA11.6和CUDNN8.4.0<br><img src="/./anacondaCUDACUDNN%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/~CY~F0_ZLP9_95H%5DMM9%5D(@X.png" alt="显卡"><br>在选项中，如果下载的版本低于当前版本，不选</li>
 <li>nvcc -V检测</li>
 </ul>
-<p>###CUDNN</p>
-<ul>
-<li>注意看update还是base版本<br><img src="/anacondaCUDACUDNN%EF%BF%BD%EF%BF%BDMn/MYYBMHLRVXQ%253OOBAH~JM4L.png" alt="CUDNN"><br>把CUDNN的include、lib、bin3个文件夹放进CUDA目录下<br><img src="/anacondaCUDACUDNN%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/%E6%97%A0%E6%A0%87%E9%A2%982.png"></li>
+<h3 id="CUDNN"><a href="#CUDNN" class="headerlink" title="CUDNN"></a>CUDNN</h3><ul>
+<li>注意看update还是base版本<br><img src="/./anacondaCUDACUDNN%EF%BF%BD%EF%BF%BDMn/MYYBMHLRVXQ%253OOBAH~JM4L.png" alt="CUDNN"><br>把CUDNN的include、lib、bin3个文件夹放进CUDA目录下<br><img src="/./anacondaCUDACUDNN%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/%E6%97%A0%E6%A0%87%E9%A2%982.png"></li>
 </ul>
-<p>###OPENCV</p>
-<ul>
+<h3 id="OPENCV"><a href="#OPENCV" class="headerlink" title="OPENCV"></a>OPENCV</h3><ul>
 <li>从官网installer下载，我用的4.6.0</li>
-<li>把OpenCV加入系统环境变量<br><img src="/anacondaCUDACUDNN%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/opencv.png" alt="系统path路径"></li>
-<li>把opencv在Visual Studio2022上配置OpenCV4.6.0，重要！<br>先把属性页上面的“配置”和“平台”分别改成release和x64————稳定版x64<br>编辑“VC++”目录中的“包含目录”，选择路径。。。\opencv\build\include，添加到我们的包含目录中<br>编辑“VC++”目录中的“库目录”，选择路径。。\opencv\build\x64\vc15\lib，添加到我们的库目录中<br>编辑 “链接器”的“输入”中的“附加依赖项”<br>复制文件夹  .\opencv\build\x64\vc15\lib中的opencv_world460d.lib文件，粘贴到附加依赖项中<br><img src="/anacondaCUDACUDNN%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/visualstudio.png" alt="加进visual studio2022"><br><img src="/anacondaCUDACUDNN%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/visualstudio2.png" alt="加进visual studio2022"><br><img src="/anacondaCUDACUDNN%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/vs_opencv.png" alt="检测"></li>
+<li>把OpenCV加入系统环境变量<br><img src="/./anacondaCUDACUDNN%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/opencv.png" alt="系统path路径"></li>
+<li>把opencv在Visual Studio2022上配置OpenCV4.6.0，重要！<br>先把属性页上面的“配置”和“平台”分别改成release和x64————稳定版x64<br>编辑“VC++”目录中的“包含目录”，选择路径。。。\opencv\build\include，添加到我们的包含目录中<br>编辑“VC++”目录中的“库目录”，选择路径。。\opencv\build\x64\vc15\lib，添加到我们的库目录中<br>编辑 “链接器”的“输入”中的“附加依赖项”<br>复制文件夹  .\opencv\build\x64\vc15\lib中的opencv_world460d.lib文件，粘贴到附加依赖项中<br><img src="/./anacondaCUDACUDNN%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/visualstudio.png" alt="加进visual studio2022"><br><img src="/./anacondaCUDACUDNN%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/visualstudio2.png" alt="加进visual studio2022"><br><img src="/./anacondaCUDACUDNN%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/vs_opencv.png" alt="检测"></li>
 </ul>
-<p>###TensorFlow-gpu下载<br>我直接用pip下载，正好说一下pip换源。</p>
+<h3 id="TensorFlow-gpu下载"><a href="#TensorFlow-gpu下载" class="headerlink" title="TensorFlow-gpu下载"></a>TensorFlow-gpu下载</h3><p>我直接用pip下载，正好说一下pip换源。</p>
 <ol>
 <li>anaconda里面集成了tensorflow，就不用下载。</li>
 <li>anaconda换源：<br>2.1.删除原有的源：<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda config --remove-key channels</span><br></pre></td></tr></table></figure>
@@ -421,7 +418,7 @@
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/main/</span><br><span class="line">conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/free/</span><br><span class="line">conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/conda-forge/</span><br><span class="line">conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/msys2/</span><br><span class="line">conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/bioconda/</span><br><span class="line">conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/menpo/</span><br><span class="line">conda config --set show_channel_urls yes</span><br></pre></td></tr></table></figure>
 <p>2.4.验证，即再次查看</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda config --show channels</span><br></pre></td></tr></table></figure>
-<p>换源成功，接下来可以使用conda install 一些module了。<br>3. pip换源<br>pip install numpy -i <a target="_blank" rel="noopener" href="https://mirrors.aliyun.com/pypi/simple/">https://mirrors.aliyun.com/pypi/simple/</a><br>                     <a target="_blank" rel="noopener" href="https://pypi.mirrors.ustc.edu.cn/simple/">https://pypi.mirrors.ustc.edu.cn/simple/</a><br>                     <a target="_blank" rel="noopener" href="https://pypi.douban.com/simple/">https://pypi.douban.com/simple/</a><br>                     <a target="_blank" rel="noopener" href="https://pypi.tuna.tsinghua.edu.cn/simple/">https://pypi.tuna.tsinghua.edu.cn/simple/</a><br>                     <a target="_blank" rel="noopener" href="https://pypi.mirrors.ustc.edu.cn/simple/">https://pypi.mirrors.ustc.edu.cn/simple/</a><br>4. tf安装<br>我在全局安装tf<br><img src="/anacondaCUDACUDNN%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/tf.png"></p>
+<p>换源成功，接下来可以使用conda install 一些module了。<br>3. pip换源<br>pip install numpy -i <a target="_blank" rel="noopener" href="https://mirrors.aliyun.com/pypi/simple/">https://mirrors.aliyun.com/pypi/simple/</a><br>                     <a target="_blank" rel="noopener" href="https://pypi.mirrors.ustc.edu.cn/simple/">https://pypi.mirrors.ustc.edu.cn/simple/</a><br>                     <a target="_blank" rel="noopener" href="https://pypi.douban.com/simple/">https://pypi.douban.com/simple/</a><br>                     <a target="_blank" rel="noopener" href="https://pypi.tuna.tsinghua.edu.cn/simple/">https://pypi.tuna.tsinghua.edu.cn/simple/</a><br>                     <a target="_blank" rel="noopener" href="https://pypi.mirrors.ustc.edu.cn/simple/">https://pypi.mirrors.ustc.edu.cn/simple/</a><br>4. tf安装<br>我在全局安装tf<br><img src="/./anacondaCUDACUDNN%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/tf.png"></p>
 
     
 

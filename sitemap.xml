@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://example.com/2023/05/14/%E6%AF%95%E8%AE%BE%E6%80%BB%E7%BB%93/</loc>
+    
+    <lastmod>2023-05-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/%E6%AF%95%E8%AE%BE%E6%80%BB%E7%BB%93/index.html</loc>
+    
+    <lastmod>2023-05-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/2023/03/19/anaconda%E3%80%81CUDA%E3%80%81CUDNN%E5%92%8Ctensorflow%E9%85%8D%E7%BD%AE/</loc>
     
     <lastmod>2023-03-19</lastmod>
@@ -157,7 +175,7 @@
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2023-03-20</lastmod>
+    <lastmod>2023-05-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -165,28 +183,28 @@
   
   <url>
     <loc>http://example.com/tags/%E8%80%83%E7%A0%94/</loc>
-    <lastmod>2023-03-20</lastmod>
+    <lastmod>2023-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/%E6%9C%9F%E6%9C%AB/</loc>
-    <lastmod>2023-03-20</lastmod>
+    <lastmod>2023-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</loc>
-    <lastmod>2023-03-20</lastmod>
+    <lastmod>2023-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</loc>
-    <lastmod>2023-03-20</lastmod>
+    <lastmod>2023-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -195,7 +213,7 @@
   
   <url>
     <loc>http://example.com/categories/%E8%80%83%E7%A0%94/</loc>
-    <lastmod>2023-03-20</lastmod>
+    <lastmod>2023-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

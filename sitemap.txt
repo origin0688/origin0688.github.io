@@ -1,3 +1,5 @@
+http://example.com/2023/05/14/%E6%AF%95%E8%AE%BE%E6%80%BB%E7%BB%93/
+http://example.com/%E6%AF%95%E8%AE%BE%E6%80%BB%E7%BB%93/index.html
 http://example.com/2023/03/19/anaconda%E3%80%81CUDA%E3%80%81CUDNN%E5%92%8Ctensorflow%E9%85%8D%E7%BD%AE/
 http://example.com/2022/06/19/%E6%B1%82%E5%8A%A91/
 http://example.com/2022/06/20/%E5%AD%A6%E5%B9%B4%E8%AE%BE%E8%AE%A13rd/

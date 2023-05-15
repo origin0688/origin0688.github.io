@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-03-19T05:59:25.456Z</updated>
+  <updated>2023-05-14T10:09:10.844Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>毕设总结</title>
+    <link href="http://example.com/2023/05/14/%E6%AF%95%E8%AE%BE%E6%80%BB%E7%BB%93/"/>
+    <id>http://example.com/2023/05/14/%E6%AF%95%E8%AE%BE%E6%80%BB%E7%BB%93/</id>
+    <published>2023-05-14T09:27:07.000Z</published>
+    <updated>2023-05-14T10:09:10.844Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="2023-2-28开始设计"><a href="#2023-2-28开始设计" class="headerlink" title="2023.2.28开始设计"></a>2023.2.28开始设计</h1><h1 id="2023-3-18-2023-4-16一边学雅思一边做毕设"><a href="#2023-3-18-2023-4-16一边学雅思一边做毕设" class="headerlink" title="2023.3.18-2023.4.16一边学雅思一边做毕设"></a>2023.3.18-2023.4.16一边学雅思一边做毕设</h1><h1 id="2023-5-14提交毕业论文"><a href="#2023-5-14提交毕业论文" class="headerlink" title="2023.5.14提交毕业论文"></a>2023.5.14提交毕业论文</h1><p>参考了很多资料，查找网页打开了超过一千吧。对我帮助最大的是chatgpt、博客园、CSDN、b站、知网、谷歌。</p><ol><li>论文写作：<a href="https://pan.baidu.com/s/1pbhiFgxxG_mT_bI_TR1wOg#list/path=%2F">论文写作1</a>，q55v和<a href="https://pan.baidu.com/s/1pkO8C_j2AOX6hJCkNtcMfQ#list/path=%2F">论文写作2</a>,1ct1</li><li>项目<a href="https://download.csdn.net/download/DeepLearning_/87371553">基于深度学习+SpringBoot+Vue的停车场收费管理系统前后端完整源码+车牌识别模块+项目说明</a></li><li>项目<a href="https://download.csdn.net/download/weixin_42123456/15731608?ops_request_misc=&request_id=&biz_id=103&utm_term=%E8%BD%A6%E7%89%8C%E8%AF%86%E5%88%AB%E7%B3%BB%E7%BB%9F1.0&utm_medium=distribute.pc_search_result.none-task-download-2~download~sobaiduweb~default-5-15731608.pc_v2_rank_dl_default&spm=1018.2226.3001.4451.7">CarSystem:基于车牌识别的车辆进出管理系统 </a></li><li>项目<a href="https://github.com/zhangjianying/A-Simple-Chinese-License-Plate-Generator-and-Recognition-Framework">中国车牌生成器</a></li><li>b站代做广告一堆，不要去浪费时间。真的一点用都没有，还要花钱，他们不会教你做，就只是甩给你一份代码还不带论文，想学东西看着代码干瞪眼。真的想学东西、把毕设做好、能回答上问题，还得自己仿照别人的设计迁移过来，应当除了数据库剩下的都自己写，一点一点碰钉子，才能掌握。</li><li>我第一次的论文被导师毙了，因为有太多前人的成果比如yolo介绍的太多，教训就是多写点自己的，不要为了凑字数而去复刻别人的理论。写了54页屁用没有。</li><li>都听导师的，导师说啥就是啥。不要为了一些细枝末节去犟嘴。多听少说。</li><li>学好word整理格式：题注、目录、页脚、字体、段落、参考文献、mathtype、分节符、分页符、边框线（“—”回车打出来的横线是段落的边框线，需要选中段落——可能不止一段再清除格式）<h1 id="祝大家开开心心的哟！"><a href="#祝大家开开心心的哟！" class="headerlink" title="祝大家开开心心的哟！"></a>祝大家开开心心的哟！</h1><img src="/images/猫.jpg"></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;2023-2-28开始设计&quot;&gt;&lt;a href=&quot;#2023-2-28开始设计&quot; class=&quot;headerlink&quot; title=&quot;2023.2.28开始设计&quot;&gt;&lt;/a&gt;2023.2.28开始设计&lt;/h1&gt;&lt;h1 id=&quot;2023-3-18-2023-4-16一边</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>anaconda、CUDA、CUDNN、OpenCV和tensorflow配置</title>
